@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
  */
 
 @SpringBootApplication
-@ComponentScan(basePackages={"org.controllers"})
+@ComponentScan(basePackages={"org.controllers", "org.configs"})
 public class Application {
 
 	public static void main(String[] args) {
