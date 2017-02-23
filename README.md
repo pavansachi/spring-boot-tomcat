@@ -1,2 +1,3 @@
 # spring-boot-tomcat
-starter for spring boot and tomcat
+A spring boot application with support for tommcat and swagger documentation.
+
