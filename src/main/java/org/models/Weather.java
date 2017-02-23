@@ -1,5 +1,10 @@
 package org.models;
 
+/**
+ * weather model
+ * @author pavansachi
+ *
+ */
 public class Weather {
 
 	private String city;
