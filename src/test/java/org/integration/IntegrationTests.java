@@ -1,6 +1,6 @@
 package org.integration;
 
-import java.util.Map;
+import static org.assertj.core.api.BDDAssertions.then;
 
 import org.junit.After;
 import org.junit.Before;
@@ -16,8 +16,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import static org.assertj.core.api.BDDAssertions.then;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
