@@ -4,9 +4,9 @@ A starter spring boot application.
 This project has support for:-
 
 * Swagger Documentation
-* Actuator
+* Actuator - health and diagnostics
 
-Actuator has the below endpoints:-
+#### How to start the application
 
-/health
+> mvn spring-boot:run
 
