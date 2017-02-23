@@ -13,3 +13,9 @@ This project has support for:-
 
 > mvn spring-boot:run
 
+The application can be accessed at http://localhost:8080/springboot
+
+#### Sample APIs exposed:
+
+* /weather?city={city}
+
