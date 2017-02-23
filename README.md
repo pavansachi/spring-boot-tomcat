@@ -1,3 +1,8 @@
 # spring-boot-tomcat
-A spring boot application with support for tommcat and swagger documentation.
+A starter spring boot application.
+
+This project has support for:-
+
+* Swagger Documentation
+* Actuator
 
