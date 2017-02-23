@@ -4,6 +4,9 @@ A starter spring boot application.
 This project has support for:-
 
 * Swagger Documentation
+
+  * Swaager UI can be accessed at /swagger-ui.html
+
 * Actuator - health and diagnostics
 
 #### How to start the application
