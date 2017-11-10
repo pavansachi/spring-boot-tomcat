@@ -45,7 +45,7 @@ public class IntegrationTests {
 	@Test
 	public void shouldReturn200WhenGetCityWeather() throws Exception {
 		ResponseEntity<Weather> entity = this.testRestTemplate.getForEntity(
-				"http://localhost:" + this.port + "/weather?city={city}", Weather.class, "sydney");
+				"http://localhost:" + this.port + "/springboot/weather?city={city}", Weather.class, "sydney");
 
 		then(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
 	}
