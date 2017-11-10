@@ -19,3 +19,5 @@ The application can be accessed at http://localhost:8080/springboot
 
 * /weather?city={city}
 
+#### Test Cases
+
